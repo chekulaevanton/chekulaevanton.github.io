@@ -1,5 +1,39 @@
+/*--Basic--*/
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+}
+
+/*--About--*/
+.about {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  color: white;
+  background-color: #040d21;
+}
+
+.about__photo {
+  height: 480px;
+  width: 360px;
+  border-radius: 4px;
+
+  margin-top: calc(50vh - 240px);
+  margin-left: calc(25vw - 180px);
+
+  background-color: rgb(184, 189, 194);
+}
+
+.about__name {
+  font-size: 4em;
 }
